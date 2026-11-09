@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mongodb
+  namespace: roboshop
   # these labels are replicaset labels
   labels:
     project: roboshop
@@ -29,6 +30,7 @@ spec:
 ---
 apiVersion: v1
 kind: Service
+namespace: roboshop
 metadata:
   name: mongodb
   labels:
