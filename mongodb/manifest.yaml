@@ -30,9 +30,9 @@ spec:
 ---
 apiVersion: v1
 kind: Service
-namespace: roboshop
 metadata:
   name: mongodb
+  namespace: roboshop
   labels:
     project: roboshop
     tier: db
