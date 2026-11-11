@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: joindevops/catalogue:1.0.0
+        image: joindevops/catalogue:1.4.0
         resource:
           requests:
             cpu: "100m"
